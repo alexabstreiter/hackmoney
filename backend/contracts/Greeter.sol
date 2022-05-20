@@ -12,6 +12,10 @@ contract Greeter {
         return greeting;
     }
 
+    function stake() public {
+        // TODO add logic for staking
+    }
+
     function setGreeting(string memory _greeting) public {
         greeting = _greeting;
     }
